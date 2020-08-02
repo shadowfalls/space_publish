@@ -1,5 +1,70 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/blogs/[id].js"],{
 
+/***/ "./components/Footer.js":
+/*!******************************!*\
+  !*** ./components/Footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Footer; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/home/dinesh/work_dump/my_projects/space_blog/components/Footer.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+function Footer() {
+  return __jsx("div", {
+    className: "footer bg-primary",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 5
+    }
+  }, __jsx("div", {
+    className: "footer__container",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "brand",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 9
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 11
+    }
+  }, __jsx("a", {
+    className: "brand-text",
+    "aria-label": "space science",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 13
+    }
+  }, "Space Science")))));
+}
+
+/***/ }),
+
 /***/ "./components/NavBar.js":
 /*!******************************!*\
   !*** ./components/NavBar.js ***!
@@ -49,7 +114,7 @@ function NavBar() {
       columnNumber: 9
     }
   }, __jsx("a", {
-    "aria-label": "dinesh",
+    "aria-label": "space science",
     className: "jsx-1121977759" + " " + "navbar-brand",
     __self: this,
     __source: {
@@ -107,7 +172,7 @@ function NavBar() {
         columnNumber: 15
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/archive/?name=".concat(top.name, "&id=").concat(top.id),
+      href: "/archive?name=".concat(top.name, "&id=").concat(top.id),
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -127,7 +192,7 @@ function NavBar() {
   })))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1121977759",
     __self: this
-  }, ".cover-image.jsx-1121977759{width:100%;height:20vh;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2RpbmVzaC93b3JrX2R1bXAvbXlfcHJvamVjdHMvc3BhY2VfYmxvZy9jb21wb25lbnRzL05hdkJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQ1MsQUFHNEIsV0FDQyxZQUNoQiIsImZpbGUiOiIvaG9tZS9kaW5lc2gvd29ya19kdW1wL215X3Byb2plY3RzL3NwYWNlX2Jsb2cvY29tcG9uZW50cy9OYXZCYXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xuXG5pbXBvcnQgeyBuYXZMaW5rcyB9IGZyb20gJy4uL2NvbnN0YW50cy9jb25zdGFudHMnO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBOYXZCYXIoKSB7XG4gIGNvbnN0IFtvcGVuLCBzZXRPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTtcblxuICBjb25zdCB0b3BpY3MgPSBuYXZMaW5rcztcblxuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8bmF2IGNsYXNzTmFtZT1cIm5hdmJhciBuYXZiYXItZXhwYW5kLWxnIG5hdmJhci1kYXJrIGJnLXByaW1hcnlcIj5cbiAgICAgICAgPExpbmsgaHJlZj1cIi9cIj5cbiAgICAgICAgICA8YSBhcmlhLWxhYmVsPVwiZGluZXNoXCIgY2xhc3NOYW1lPVwibmF2YmFyLWJyYW5kXCI+U3BhY2UgU2NpZW5jZTwvYT5cbiAgICAgICAgPC9MaW5rPlxuICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cIm5hdmJhci10b2dnbGVyXCIgdHlwZT1cImJ1dHRvblwiIG9uQ2xpY2s9eygpID0+IHNldE9wZW4oIW9wZW4pfSBhcmlhLWNvbnRyb2xzPVwibmF2YmFyQ29sb3IwM1wiIGFyaWEtZXhwYW5kZWQ9XCJmYWxzZVwiIGFyaWEtbGFiZWw9XCJUb2dnbGUgbmF2aWdhdGlvblwiPlxuICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cIm5hdmJhci10b2dnbGVyLWljb25cIiAvPlxuICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9e2Bjb2xsYXBzZSBuYXZiYXItY29sbGFwc2UgJHtvcGVuID8gJ3Nob3cnIDogJyd9YH0+XG4gICAgICAgICAgPHVsIGNsYXNzTmFtZT1cIm5hdmJhci1uYXYgbWwtYXV0b1wiPlxuICAgICAgICAgICAge3RvcGljcy5tYXAoKHRvcCwgaW5kZXgpID0+IChcbiAgICAgICAgICAgICAgPGxpIGtleT17aW5kZXh9IGNsYXNzTmFtZT1cIm5hdi1pdGVtIGFjdGl2ZVwiPlxuICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9e2AvYXJjaGl2ZS8/bmFtZT0ke3RvcC5uYW1lfSZpZD0ke3RvcC5pZH1gfT5cbiAgICAgICAgICAgICAgICAgIDxhIGFyaWEtbGFiZWw9e3RvcC5sYWJlbH0gY2xhc3NOYW1lPVwibmF2LWxpbmtcIj57dG9wLmxhYmVsfTwvYT5cbiAgICAgICAgICAgICAgICA8L0xpbms+XG4gICAgICAgICAgICAgIDwvbGk+XG4gICAgICAgICAgICApKX1cbiAgICAgICAgICAgIHsvKiA8bGkgY2xhc3NOYW1lPVwibmF2LWl0ZW0gYWN0aXZlXCI+XG4gICAgICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvYWJvdXRcIiBhcz1cIi9hYm91dFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGEgY2xhc3NOYW1lPVwibmF2LWxpbmtcIj5BYm91dDwvYT5cbiAgICAgICAgICAgICAgICAgICAgPC9MaW5rPlxuICAgICAgICAgICAgICAgIDwvbGk+ICovfVxuICAgICAgICAgIDwvdWw+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9uYXY+XG4gICAgICA8c3R5bGUganN4PVwibmFiYmFyLXN0eWxlXCI+XG4gICAgICAgIHtgXG4gICAgICAgICAgICAuY292ZXItaW1hZ2Uge1xuICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgICAgICAgIGhlaWdodDogMjB2aDtcbiAgICAgICAgICAgIH1cbiAgICAgICAgYH1cbiAgICAgIDwvc3R5bGU+XG4gICAgPC8+XG4gICk7XG59XG4iXX0= */\n/*@ sourceURL=/home/dinesh/work_dump/my_projects/space_blog/components/NavBar.js */"));
+  }, ".cover-image.jsx-1121977759{width:100%;height:20vh;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2RpbmVzaC93b3JrX2R1bXAvbXlfcHJvamVjdHMvc3BhY2VfYmxvZy9jb21wb25lbnRzL05hdkJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQ1MsQUFHNEIsV0FDQyxZQUNoQiIsImZpbGUiOiIvaG9tZS9kaW5lc2gvd29ya19kdW1wL215X3Byb2plY3RzL3NwYWNlX2Jsb2cvY29tcG9uZW50cy9OYXZCYXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xuXG5pbXBvcnQgeyBuYXZMaW5rcyB9IGZyb20gJy4uL2NvbnN0YW50cy9jb25zdGFudHMnO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBOYXZCYXIoKSB7XG4gIGNvbnN0IFtvcGVuLCBzZXRPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTtcblxuICBjb25zdCB0b3BpY3MgPSBuYXZMaW5rcztcblxuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8bmF2IGNsYXNzTmFtZT1cIm5hdmJhciBuYXZiYXItZXhwYW5kLWxnIG5hdmJhci1kYXJrIGJnLXByaW1hcnlcIj5cbiAgICAgICAgPExpbmsgaHJlZj1cIi9cIj5cbiAgICAgICAgICA8YSBhcmlhLWxhYmVsPVwic3BhY2Ugc2NpZW5jZVwiIGNsYXNzTmFtZT1cIm5hdmJhci1icmFuZFwiPlNwYWNlIFNjaWVuY2U8L2E+XG4gICAgICAgIDwvTGluaz5cbiAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJuYXZiYXItdG9nZ2xlclwiIHR5cGU9XCJidXR0b25cIiBvbkNsaWNrPXsoKSA9PiBzZXRPcGVuKCFvcGVuKX0gYXJpYS1jb250cm9scz1cIm5hdmJhckNvbG9yMDNcIiBhcmlhLWV4cGFuZGVkPVwiZmFsc2VcIiBhcmlhLWxhYmVsPVwiVG9nZ2xlIG5hdmlnYXRpb25cIj5cbiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJuYXZiYXItdG9nZ2xlci1pY29uXCIgLz5cbiAgICAgICAgPC9idXR0b24+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPXtgY29sbGFwc2UgbmF2YmFyLWNvbGxhcHNlICR7b3BlbiA/ICdzaG93JyA6ICcnfWB9PlxuICAgICAgICAgIDx1bCBjbGFzc05hbWU9XCJuYXZiYXItbmF2IG1sLWF1dG9cIj5cbiAgICAgICAgICAgIHt0b3BpY3MubWFwKCh0b3AsIGluZGV4KSA9PiAoXG4gICAgICAgICAgICAgIDxsaSBrZXk9e2luZGV4fSBjbGFzc05hbWU9XCJuYXYtaXRlbSBhY3RpdmVcIj5cbiAgICAgICAgICAgICAgICA8TGluayBocmVmPXtgL2FyY2hpdmU/bmFtZT0ke3RvcC5uYW1lfSZpZD0ke3RvcC5pZH1gfT5cbiAgICAgICAgICAgICAgICAgIDxhIGFyaWEtbGFiZWw9e3RvcC5sYWJlbH0gY2xhc3NOYW1lPVwibmF2LWxpbmtcIj57dG9wLmxhYmVsfTwvYT5cbiAgICAgICAgICAgICAgICA8L0xpbms+XG4gICAgICAgICAgICAgIDwvbGk+XG4gICAgICAgICAgICApKX1cbiAgICAgICAgICAgIHsvKiA8bGkgY2xhc3NOYW1lPVwibmF2LWl0ZW0gYWN0aXZlXCI+XG4gICAgICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvYWJvdXRcIiBhcz1cIi9hYm91dFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGEgY2xhc3NOYW1lPVwibmF2LWxpbmtcIj5BYm91dDwvYT5cbiAgICAgICAgICAgICAgICAgICAgPC9MaW5rPlxuICAgICAgICAgICAgICAgIDwvbGk+ICovfVxuICAgICAgICAgIDwvdWw+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9uYXY+XG4gICAgICA8c3R5bGUganN4PVwibmFiYmFyLXN0eWxlXCI+XG4gICAgICAgIHtgXG4gICAgICAgICAgICAuY292ZXItaW1hZ2Uge1xuICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgICAgICAgIGhlaWdodDogMjB2aDtcbiAgICAgICAgICAgIH1cbiAgICAgICAgYH1cbiAgICAgIDwvc3R5bGU+XG4gICAgPC8+XG4gICk7XG59XG4iXX0= */\n/*@ sourceURL=/home/dinesh/work_dump/my_projects/space_blog/components/NavBar.js */"));
 }
 
 /***/ }),
@@ -159,6 +224,11 @@ function RecentArticles(_ref) {
   var _this = this;
 
   var articles = _ref.articles;
+  // const articles = [
+  //   { "title": "Mars the red planet", "date": "2020-07-17", "readTimeMin": "9", "blogId": "mars_the_red_planet", "id": "5ef965a4cddd5628e4170142" },
+  //   { "title": "Venus the brightest star", "date": "2020-07-03", "readTimeMin": "5", "blogId": "venus_the_brightest_star", "id": "5ef86aaa994b14386ffa064b" },
+  //   { "title": "Mercury the innermost planet", "date": "2020-06-26", "readTimeMin": "5", "blogId": "mercury_the_innermost_planet", "id": "5eec3bce0fc5774a4f4baf6a" }
+  // ];
   var blogs = articles.map(function (c) {
     var url = Object(_constants_constants__WEBPACK_IMPORTED_MODULE_3__["getArticleUrl"])(c.blogId);
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
@@ -166,15 +236,15 @@ function RecentArticles(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13,
+        lineNumber: 18,
         columnNumber: 7
       }
     }, __jsx("div", {
-      className: "col-sm-12 col-xl-4 col-md-4 col-lg-4 recent-card",
+      className: "recent-card",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14,
+        lineNumber: 19,
         columnNumber: 9
       }
     }, __jsx("div", {
@@ -182,7 +252,7 @@ function RecentArticles(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15,
+        lineNumber: 20,
         columnNumber: 11
       }
     }, c.title), __jsx("div", {
@@ -190,7 +260,7 @@ function RecentArticles(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16,
+        lineNumber: 21,
         columnNumber: 11
       }
     }, "".concat(Object(_services_utils__WEBPACK_IMPORTED_MODULE_2__["printDate"])(c.date), " - ").concat(c.readTimeMin, " mins read")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -198,7 +268,7 @@ function RecentArticles(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17,
+        lineNumber: 22,
         columnNumber: 11
       }
     }, __jsx("a", {
@@ -207,17 +277,17 @@ function RecentArticles(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
+        lineNumber: 23,
         columnNumber: 13
       }
     }, "read more"))));
   });
   return __jsx("div", {
-    className: "row mb-4",
+    className: "d-flex justify-content-start flex-wrap",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 33,
       columnNumber: 5
     }
   }, blogs);
@@ -285,7 +355,7 @@ function VerticalAd() {
 /***/ (function(module, exports, __webpack_require__) {
 
 var AppConstants = {
-  baseUrl: 'https://raw.githubusercontent.com/shadowfalls/mirror/master/src',
+  baseUrl: 'https://raw.githubusercontent.com/shadowfalls/space_mirror/master',
   isLocal: "development" === 'development',
   localBaseUrl: 'http://localhost:3939',
 
@@ -319,7 +389,7 @@ var AppConstants = {
   recentArticles: '_recentArticlesJson',
   navLinks: [{
     name: 'Solar system',
-    id: '5eec3bb20fc5774a4f4baf69',
+    id:  true ? '5eec3bb20fc5774a4f4baf69' : undefined,
     label: 'Solar system'
   }],
   getArticleUrl: function getArticleUrl(id) {
@@ -13433,11 +13503,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/NavBar */ "./components/NavBar.js");
 /* harmony import */ var _services_utils__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../services/utils */ "./services/utils.js");
 /* harmony import */ var _components_RecentArticles__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../components/RecentArticles */ "./components/RecentArticles.js");
-/* harmony import */ var _components_VerticalAd__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../components/VerticalAd */ "./components/VerticalAd.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _components_VerticalAd__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../components/VerticalAd */ "./components/VerticalAd.js");
 
 
 var _jsxFileName = "/home/dinesh/work_dump/my_projects/space_blog/pages/blogs/[id].js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
 
 
 
@@ -13542,11 +13614,12 @@ function Blogs() {
     var bloger = content.map(function (line, index) {
       if (line.isImage && line.imageUrl) {
         return __jsx("div", {
-          className: "d-flex justify-content-center",
+          key: index,
+          className: "d-flex justify-content-center image",
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 96,
+            lineNumber: 97,
             columnNumber: 11
           }
         }, __jsx("img", {
@@ -13555,7 +13628,7 @@ function Blogs() {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 97,
+            lineNumber: 98,
             columnNumber: 13
           }
         }));
@@ -13568,7 +13641,7 @@ function Blogs() {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102,
+          lineNumber: 103,
           columnNumber: 44
         }
       });
@@ -13581,7 +13654,7 @@ function Blogs() {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104,
+          lineNumber: 105,
           columnNumber: 38
         }
       });
@@ -13594,7 +13667,7 @@ function Blogs() {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106,
+          lineNumber: 107,
           columnNumber: 37
         }
       });
@@ -13607,7 +13680,7 @@ function Blogs() {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108,
+          lineNumber: 109,
           columnNumber: 38
         }
       });
@@ -13620,7 +13693,7 @@ function Blogs() {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110,
+          lineNumber: 111,
           columnNumber: 33
         }
       });
@@ -13632,7 +13705,7 @@ function Blogs() {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112,
+          lineNumber: 113,
           columnNumber: 14
         }
       });
@@ -13649,21 +13722,21 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 126,
       columnNumber: 7
     }
   }), __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 127,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 128,
       columnNumber: 9
     }
   }, blog.title), __jsx("meta", {
@@ -13672,7 +13745,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 129,
       columnNumber: 9
     }
   })), __jsx("span", {
@@ -13680,7 +13753,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 131,
       columnNumber: 7
     }
   }, __jsx("div", {
@@ -13688,14 +13761,14 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131,
+      lineNumber: 132,
       columnNumber: 9
     }
-  }, __jsx(_components_VerticalAd__WEBPACK_IMPORTED_MODULE_12__["default"], {
+  }, __jsx(_components_VerticalAd__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
+      lineNumber: 134,
       columnNumber: 11
     }
   }), __jsx("div", {
@@ -13703,7 +13776,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 135,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -13711,7 +13784,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 136,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -13719,26 +13792,15 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 137,
       columnNumber: 15
     }
-  }, __jsx(react_adsense__WEBPACK_IMPORTED_MODULE_7___default.a.Google, {
-    client: _constants_constants__WEBPACK_IMPORTED_MODULE_8__["adClientId"],
-    slot: "3072497734",
-    format: "auto",
-    responsive: "true",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 137,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
+  }), __jsx("div", {
     className: "col-12",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144,
+      lineNumber: 145,
       columnNumber: 15
     }
   }, __jsx("h1", {
@@ -13746,7 +13808,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 146,
       columnNumber: 17
     }
   }, blog.title), __jsx("p", {
@@ -13754,7 +13816,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
+      lineNumber: 149,
       columnNumber: 17
     }
   }, Object(_services_utils__WEBPACK_IMPORTED_MODULE_10__["printDate"])(blog.date), "\xA0-\xA0", blog.readTimeMin, ' ', "mins read"), __jsx("ul", {
@@ -13762,7 +13824,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155,
+      lineNumber: 156,
       columnNumber: 17
     }
   }, __jsx("li", {
@@ -13771,7 +13833,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156,
+      lineNumber: 157,
       columnNumber: 19
     }
   }, __jsx(react_social_sharing__WEBPACK_IMPORTED_MODULE_5__["Twitter"], {
@@ -13779,7 +13841,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 158,
       columnNumber: 21
     }
   }), __jsx(react_social_sharing__WEBPACK_IMPORTED_MODULE_5__["Facebook"], {
@@ -13787,15 +13849,16 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158,
+      lineNumber: 159,
       columnNumber: 21
     }
-  })), socialLinks.map(function (links) {
+  })), socialLinks.map(function (links, index) {
     return __jsx("li", {
+      key: index,
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 161,
+        lineNumber: 162,
         columnNumber: 21
       }
     }, __jsx("a", {
@@ -13811,7 +13874,7 @@ function Blogs() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 162,
+        lineNumber: 163,
         columnNumber: 23
       }
     }, __jsx("i", {
@@ -13819,50 +13882,39 @@ function Blogs() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 169,
+        lineNumber: 170,
         columnNumber: 25
       }
     })));
   }))), __jsx("div", {
-    className: "contents col-12",
+    className: "contents col-12 col-sm-12 col-md-8 col-xl-8 col-lg-8",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175,
+      lineNumber: 176,
       columnNumber: 15
     }
   }, printBlog), __jsx("div", {
+    className: "d-none d-sm-none d-md-block d-xl-block d-lg-block",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 179,
+      columnNumber: 15
+    }
+  }), __jsx("div", {
     className: "col-12",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178,
+      lineNumber: 180,
       columnNumber: 15
     }
   }, __jsx("hr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    className: "col-12",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 181,
-      columnNumber: 15
-    }
-  }, __jsx(react_adsense__WEBPACK_IMPORTED_MODULE_7___default.a.Google, {
-    client: _constants_constants__WEBPACK_IMPORTED_MODULE_8__["adClientId"],
-    slot: "9591641415",
-    format: "auto",
-    responsive: "true",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 182,
       columnNumber: 17
     }
   })), __jsx("div", {
@@ -13870,26 +13922,33 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 189,
+      lineNumber: 183,
       columnNumber: 15
     }
-  }, __jsx("div", {
+  })), __jsx("div", {
     className: "recent",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190,
-      columnNumber: 17
+      lineNumber: 192,
+      columnNumber: 13
     }
-  }, "Recent Articles:")), __jsx(_components_RecentArticles__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  }, "You might be interested in:"), __jsx(_components_RecentArticles__WEBPACK_IMPORTED_MODULE_11__["default"], {
     articles: recent,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 194,
-      columnNumber: 15
+      lineNumber: 195,
+      columnNumber: 13
     }
-  }))))));
+  })))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 199,
+      columnNumber: 7
+    }
+  }));
 }
 
 Blogs.getInitialProps = function _callee(_ref) {
@@ -13903,7 +13962,7 @@ Blogs.getInitialProps = function _callee(_ref) {
             __self: this,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 204,
+              lineNumber: 205,
               columnNumber: 10
             }
           })));
