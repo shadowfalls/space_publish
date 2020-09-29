@@ -16,8 +16,12 @@ var AppConstants = {
   adClientId: 'ca-pub-3929370842605036',
 
   /* Google site verification */
-  googleSiteVerifiId: 'iTMKpZzdcgBX1pxilUsECD707mg5YpFaGA2DaDZvHUM',
-  domain: 'dinesh24murali.github.io',
+
+  /**
+   * for spacescience.blog
+   */
+  googleSiteVerifiId: '2wjIvnqfF0fKKkMp2RxDIu_e0tbvgKPkxCKiFAWopaE',
+  domain: 'spacescience.blog',
   routeLinks: {
     categories: '/topics',
     about: '/about',
@@ -44,10 +48,7 @@ var AppConstants = {
     name: 'Solar system',
     id:  true ? '5eec3bb20fc5774a4f4baf69' : undefined,
     label: 'Solar system'
-  }],
-  getArticleUrl: function getArticleUrl(id) {
-    return  true ? "/blogs/".concat(id) : undefined;
-  }
+  }]
 };
 module.exports = AppConstants;
 
@@ -454,7 +455,7 @@ exports.push([module.i, ".blog-list .heading-advertise {\n  height: 10vh;\n  bac
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".footer {\n  height: 100px;\n  border-top: 2px solid #47C072;\n}\n.footer__container {\n  margin: 0px 10% 0px 10%;\n}\n.footer__container .brand {\n  font-size: 1.32875rem;\n  padding-top: 34px;\n  color: white;\n}\n.footer__container .brand .brand-text {\n  color: white;\n}\n.footer__container .brand .brand-text:hover {\n  color: white;\n  text-decoration: none;\n}", "",{"version":3,"sources":["/home/dinesh/work_dump/my_projects/space_blog/styles/globals.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,6BAAA;AACJ;AAAI;EACI,uBAAA;AAER;AADQ;EACI,qBAAA;EACA,iBAAA;EACA,YAAA;AAGZ;AAFY;EACI,YAAA;AAIhB;AAFY;EACI,YAAA;EACA,qBAAA;AAIhB","file":"globals.scss","sourcesContent":[".footer {\n    height: 100px;\n    border-top: 2px solid #47C072;\n    &__container {\n        margin: 0px 10% 0px 10%;\n        .brand {\n            font-size: 1.32875rem;\n            padding-top: 34px;\n            color: white;\n            .brand-text {\n                color: white;\n            }\n            .brand-text:hover {\n                color: white;\n                text-decoration: none;\n            }\n        }\n    }\n}"]}]);
+exports.push([module.i, ".footer {\n  height: 100px;\n  border-top: 2px solid #47C072;\n}\n.footer__container {\n  margin: 0px 10% 0px 10%;\n}\n.footer__container .brand {\n  font-size: 1.32875rem;\n  padding-top: 34px;\n  color: white;\n}\n.footer__container .brand .brand-text {\n  color: white;\n}\n.footer__container .brand .brand-text:hover {\n  color: white;\n  text-decoration: none;\n}\n\nbody {\n  background-color: #f5f8fa !important;\n}\n\n.cursor-ponter {\n  cursor: pointer;\n}", "",{"version":3,"sources":["/home/dinesh/work_dump/my_projects/space_blog/styles/globals.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,6BAAA;AACJ;AAAI;EACI,uBAAA;AAER;AADQ;EACI,qBAAA;EACA,iBAAA;EACA,YAAA;AAGZ;AAFY;EACI,YAAA;AAIhB;AAFY;EACI,YAAA;EACA,qBAAA;AAIhB;;AACA;EACI,oCAAA;AAEJ;;AAAA;EACI,eAAA;AAGJ","file":"globals.scss","sourcesContent":[".footer {\n    height: 100px;\n    border-top: 2px solid #47C072;\n    &__container {\n        margin: 0px 10% 0px 10%;\n        .brand {\n            font-size: 1.32875rem;\n            padding-top: 34px;\n            color: white;\n            .brand-text {\n                color: white;\n            }\n            .brand-text:hover {\n                color: white;\n                text-decoration: none;\n            }\n        }\n    }\n}\nbody {\n    background-color: rgb(245, 248, 250) !important;\n}\n.cursor-ponter {\n    cursor: pointer;\n}\n"]}]);
 
 
 /***/ }),
