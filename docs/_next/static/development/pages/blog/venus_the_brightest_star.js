@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/blog/mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/blog/venus_the_brightest_star.js"],{
 
 /***/ "./components/Footer.js":
 /*!******************************!*\
@@ -4429,21 +4429,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog%2Fmars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years&absolutePagePath=%2Fhome%2Fdinesh%2Fwork_dump%2FProjects%2Fspace_science%2Fspace_blog%2Fpages%2Fblog%2Fmars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js!./":
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog%2Fmars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years&absolutePagePath=%2Fhome%2Fdinesh%2Fwork_dump%2FProjects%2Fspace_science%2Fspace_blog%2Fpages%2Fblog%2Fmars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog%2Fvenus_the_brightest_star&absolutePagePath=%2Fhome%2Fdinesh%2Fwork_dump%2FProjects%2Fspace_science%2Fspace_blog%2Fpages%2Fblog%2Fvenus_the_brightest_star.js!./":
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog%2Fvenus_the_brightest_star&absolutePagePath=%2Fhome%2Fdinesh%2Fwork_dump%2FProjects%2Fspace_science%2Fspace_blog%2Fpages%2Fblog%2Fvenus_the_brightest_star.js ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/blog/mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years", function() {
-      var mod = __webpack_require__(/*! ./pages/blog/mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js */ "./pages/blog/mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/blog/venus_the_brightest_star", function() {
+      var mod = __webpack_require__(/*! ./pages/blog/venus_the_brightest_star.js */ "./pages/blog/venus_the_brightest_star.js")
       if(true) {
-        module.hot.accept(/*! ./pages/blog/mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js */ "./pages/blog/mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js", function() {
-          if(!next.router.components["/blog/mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/blog/mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js */ "./pages/blog/mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js")
-          next.router.update("/blog/mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years", updatedPage)
+        module.hot.accept(/*! ./pages/blog/venus_the_brightest_star.js */ "./pages/blog/venus_the_brightest_star.js", function() {
+          if(!next.router.components["/blog/venus_the_brightest_star"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/blog/venus_the_brightest_star.js */ "./pages/blog/venus_the_brightest_star.js")
+          next.router.update("/blog/venus_the_brightest_star", updatedPage)
         })
       }
       return mod
@@ -14597,10 +14597,10 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./pages/blog/mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js":
-/*!***********************************************************************************************!*\
-  !*** ./pages/blog/mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js ***!
-  \***********************************************************************************************/
+/***/ "./pages/blog/venus_the_brightest_star.js":
+/*!************************************************!*\
+  !*** ./pages/blog/venus_the_brightest_star.js ***!
+  \************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14620,14 +14620,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_constants_constants__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/NavBar */ "./components/NavBar.js");
 /* harmony import */ var _services_utils__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../services/utils */ "./services/utils.js");
-/* harmony import */ var _services_useBlogLoader__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../services/useBlogLoader */ "./services/useBlogLoader.js");
-/* harmony import */ var _components_RecentArticles__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../components/RecentArticles */ "./components/RecentArticles.js");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../components/Footer */ "./components/Footer.js");
-/* harmony import */ var _components_VerticalAd__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../components/VerticalAd */ "./components/VerticalAd.js");
+/* harmony import */ var _components_RecentArticles__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/RecentArticles */ "./components/RecentArticles.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _components_VerticalAd__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../components/VerticalAd */ "./components/VerticalAd.js");
+/* harmony import */ var _services_useBlogLoader__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../services/useBlogLoader */ "./services/useBlogLoader.js");
 /* harmony import */ var _styles_BlogPage_style__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../styles/BlogPage.style */ "./styles/BlogPage.style.js");
 
 
-var _jsxFileName = "/home/dinesh/work_dump/Projects/space_science/space_blog/pages/blog/mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js";
+var _jsxFileName = "/home/dinesh/work_dump/Projects/space_science/space_blog/pages/blog/venus_the_brightest_star.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -14642,13 +14642,24 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
 
+/**
+ * This file is used only in development. Any change in this must be manually
+ * copied into /pages/blog.js file to apply that in production
+ */
 
 function Blogs() {
   var _this = this;
 
-  var id = 'mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years';
-  var blogTitle = 'Mars is closer to Earth in October than it will be for another 15 years';
-  var blogDescription = "Mars makes its closest approach to Earth at 10:18 am ET on October 6. Mars will be 38,586,816 miles away from Earth and it won't be this close again until 2035. Mars in 2003 made its closest approach to Earth in 60,000 years, coming within a distance of 34.65 million miles";
+  var id = 'venus_the_brightest_star';
+  var blogTitle = 'Venus the brightest star';
+  var blogDescription = 'Venus is the brightest plane that is visible in the sky, because it is close to earth. It is the 2nd closest planet to the sun after Mercury, but it is the hottest planet in the solar system.';
+
+  var _useBlogLoader = Object(_services_useBlogLoader__WEBPACK_IMPORTED_MODULE_12__["default"])({
+    id: id
+  }),
+      blog = _useBlogLoader.blog,
+      recent = _useBlogLoader.recent;
+
   var shareLinks = Object(react__WEBPACK_IMPORTED_MODULE_2__["useRef"])(null);
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])([{
@@ -14657,12 +14668,6 @@ function Blogs() {
   }]),
       socialLinks = _useState[0],
       setSocialLinks = _useState[1];
-
-  var _useBlogLoader = Object(_services_useBlogLoader__WEBPACK_IMPORTED_MODULE_9__["default"])({
-    id: id
-  }),
-      blog = _useBlogLoader.blog,
-      recent = _useBlogLoader.recent;
 
   Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(function () {
     /**
@@ -14702,7 +14707,7 @@ function Blogs() {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 72,
+            lineNumber: 74,
             columnNumber: 11
           }
         }, __jsx("img", {
@@ -14711,7 +14716,7 @@ function Blogs() {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 73,
+            lineNumber: 75,
             columnNumber: 13
           }
         }));
@@ -14724,7 +14729,7 @@ function Blogs() {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78,
+          lineNumber: 80,
           columnNumber: 44
         }
       });
@@ -14737,7 +14742,7 @@ function Blogs() {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80,
+          lineNumber: 82,
           columnNumber: 38
         }
       });
@@ -14750,7 +14755,7 @@ function Blogs() {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82,
+          lineNumber: 84,
           columnNumber: 37
         }
       });
@@ -14763,7 +14768,7 @@ function Blogs() {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84,
+          lineNumber: 86,
           columnNumber: 38
         }
       });
@@ -14776,7 +14781,7 @@ function Blogs() {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86,
+          lineNumber: 88,
           columnNumber: 33
         }
       });
@@ -14788,7 +14793,7 @@ function Blogs() {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88,
+          lineNumber: 90,
           columnNumber: 14
         }
       });
@@ -14807,21 +14812,21 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 105,
       columnNumber: 7
     }
   }), __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 106,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 107,
       columnNumber: 9
     }
   }, blogTitle), __jsx("meta", {
@@ -14830,7 +14835,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 108,
       columnNumber: 9
     }
   }), __jsx("meta", {
@@ -14839,7 +14844,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 110,
       columnNumber: 9
     }
   }), __jsx("meta", {
@@ -14848,14 +14853,14 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109,
+      lineNumber: 111,
       columnNumber: 9
     }
   })), __jsx(_styles_BlogPage_style__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 113,
       columnNumber: 7
     }
   }, __jsx("div", {
@@ -14863,14 +14868,14 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 114,
       columnNumber: 9
     }
-  }, __jsx(_components_VerticalAd__WEBPACK_IMPORTED_MODULE_12__["default"], {
+  }, __jsx(_components_VerticalAd__WEBPACK_IMPORTED_MODULE_11__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 116,
       columnNumber: 11
     }
   }), __jsx("div", {
@@ -14878,7 +14883,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 117,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -14886,7 +14891,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 118,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -14894,7 +14899,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 119,
       columnNumber: 15
     }
   }), __jsx("div", {
@@ -14902,7 +14907,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 127,
       columnNumber: 15
     }
   }, __jsx("h1", {
@@ -14910,7 +14915,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 128,
       columnNumber: 17
     }
   }, blogTitle), __jsx("p", {
@@ -14918,7 +14923,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 131,
       columnNumber: 17
     }
   }, Object(_services_utils__WEBPACK_IMPORTED_MODULE_8__["printDate"])(blog.date), "\xA0-\xA0", blog.readTimeMin, ' ', "mins read"), __jsx("ul", {
@@ -14926,7 +14931,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 138,
       columnNumber: 17
     }
   }, __jsx("li", {
@@ -14935,7 +14940,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
+      lineNumber: 139,
       columnNumber: 19
     }
   }, __jsx(react_social_sharing__WEBPACK_IMPORTED_MODULE_4__["Twitter"], {
@@ -14943,7 +14948,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 140,
       columnNumber: 21
     }
   }), __jsx(react_social_sharing__WEBPACK_IMPORTED_MODULE_4__["Facebook"], {
@@ -14951,7 +14956,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
+      lineNumber: 141,
       columnNumber: 21
     }
   })), socialLinks.map(function (links, index) {
@@ -14960,7 +14965,7 @@ function Blogs() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 142,
+        lineNumber: 144,
         columnNumber: 21
       }
     }, __jsx("a", {
@@ -14976,7 +14981,7 @@ function Blogs() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 143,
+        lineNumber: 145,
         columnNumber: 23
       }
     }, __jsx("i", {
@@ -14984,7 +14989,7 @@ function Blogs() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 150,
+        lineNumber: 152,
         columnNumber: 25
       }
     })));
@@ -14993,7 +14998,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156,
+      lineNumber: 158,
       columnNumber: 15
     }
   }, printBlog ? printBlog : blogDescription), __jsx("div", {
@@ -15001,7 +15006,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159,
+      lineNumber: 161,
       columnNumber: 15
     }
   }), __jsx("div", {
@@ -15009,14 +15014,14 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160,
+      lineNumber: 162,
       columnNumber: 15
     }
   }, __jsx("hr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161,
+      lineNumber: 163,
       columnNumber: 17
     }
   })), __jsx("div", {
@@ -15024,7 +15029,7 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163,
+      lineNumber: 165,
       columnNumber: 15
     }
   })), __jsx("div", {
@@ -15032,22 +15037,22 @@ function Blogs() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
+      lineNumber: 174,
       columnNumber: 13
     }
-  }, "You might be interested in:"), __jsx(_components_RecentArticles__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }, "You might be interested in:"), __jsx(_components_RecentArticles__WEBPACK_IMPORTED_MODULE_9__["default"], {
     articles: recent,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175,
+      lineNumber: 177,
       columnNumber: 13
     }
-  })))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  })))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_10__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179,
+      lineNumber: 181,
       columnNumber: 7
     }
   }));
@@ -15064,7 +15069,7 @@ Blogs.getInitialProps = function _callee(_ref) {
             __self: this,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 185,
+              lineNumber: 187,
               columnNumber: 10
             }
           })));
@@ -15389,14 +15394,14 @@ var darkTheme = _objectSpread({}, defaultTheme, {}, dark);
 
 /***/ }),
 
-/***/ 3:
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fblog%2Fmars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years&absolutePagePath=%2Fhome%2Fdinesh%2Fwork_dump%2FProjects%2Fspace_science%2Fspace_blog%2Fpages%2Fblog%2Fmars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ 5:
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fblog%2Fvenus_the_brightest_star&absolutePagePath=%2Fhome%2Fdinesh%2Fwork_dump%2FProjects%2Fspace_science%2Fspace_blog%2Fpages%2Fblog%2Fvenus_the_brightest_star.js ***!
+  \*****************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fblog%2Fmars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years&absolutePagePath=%2Fhome%2Fdinesh%2Fwork_dump%2FProjects%2Fspace_science%2Fspace_blog%2Fpages%2Fblog%2Fmars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog%2Fmars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years&absolutePagePath=%2Fhome%2Fdinesh%2Fwork_dump%2FProjects%2Fspace_science%2Fspace_blog%2Fpages%2Fblog%2Fmars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fblog%2Fvenus_the_brightest_star&absolutePagePath=%2Fhome%2Fdinesh%2Fwork_dump%2FProjects%2Fspace_science%2Fspace_blog%2Fpages%2Fblog%2Fvenus_the_brightest_star.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog%2Fvenus_the_brightest_star&absolutePagePath=%2Fhome%2Fdinesh%2Fwork_dump%2FProjects%2Fspace_science%2Fspace_blog%2Fpages%2Fblog%2Fvenus_the_brightest_star.js!./");
 
 
 /***/ }),
@@ -15412,5 +15417,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=mars_is_closer_to_earth_in_october_than_it_will_be_for_another_15_years.js.map
+},[[5,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=venus_the_brightest_star.js.map
